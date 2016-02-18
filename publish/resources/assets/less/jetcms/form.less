@@ -1,6 +1,9 @@
 /* Form */
-@import "jetcms_modules/form/less/variables.less";
+.jet-form(@prefix) {
+  @import "jetcms_modules/form/less/variables.less";
 
-@import "jetcms_modules/form/less/main.less";
-@import "jetcms_modules/form/less/form.less";
+  @import "jetcms_modules/form/less/main.less";
+  @import "jetcms_modules/form/less/form.less";
+}
 
+.jet-form(jet-form__);
