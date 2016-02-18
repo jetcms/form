@@ -1,0 +1,25 @@
+{
+    "name": "jetcms/form",
+    "description": "CMS",
+    "keywords": ["laravel", "cms", "controllers", "form"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex. Suroviy",
+            "email": "suroviy@bk.ru"
+        }
+    ],
+    "require": {
+        "php": ">=5.5.9",
+        "cartalyst/sentinel": "v2.0.*",
+        "artesaos/seotools": "^0.7.*"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "JetCMS\\Form\\": "src/"
+        }
+    }
+}
